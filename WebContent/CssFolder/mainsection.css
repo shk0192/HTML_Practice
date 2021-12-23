@@ -1,0 +1,50 @@
+@charset "EUC-KR";
+
+/*여기는 다른곳에 적용되지 않아야 합니다.*/
+.section{
+	width: 1000px;
+	height: 1475px;
+	background-image: url("../image/DeemoTree.jpg");
+	background-size: 100% 100%;
+	opacity:0.9;
+	background-repeat: no-repeat;
+	color: white;
+	font-family: 'East Sea Dokdo', cursive;
+}
+
+section div:nth-child(2n+1){
+	position: relative;
+	margin: 50px 0px 0px 20px;
+	width: 450px;
+	height : 300px;
+	text-align: left;
+	float: left;
+	top: 50px;
+	font-size: 30px;
+	text-shadow: 0px 0px 10px white;
+}
+
+section div:nth-child(2n){
+	position: relative;
+	margin: 50px 20px 0px 0px;
+	width: 450px;
+	height : 300px;
+	text-align: right;
+	float: left;
+	font-size: 30px;
+	text-shadow: 0px 0px 10px white;
+	top: 150px;
+}
+
+div #last{
+	position: relative;
+	margin: 50px 20px 0px 0px;
+	width: 450px;
+	height : 300px;
+	text-align: right;
+	float: right;
+	top: 20px;
+	font-size: 30px;
+	text-shadow: 0px 0px 10px white;
+}
+/*-------------------------------------*/

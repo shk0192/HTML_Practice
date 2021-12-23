@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Deemo</title>
+<link rel="stylesheet" type="text/css" href="../CssFolder/main.css">
+<link rel="stylesheet" type="text/css" href="../CssFolder/musicListsection.css">
+<link rel="icon" href="../image/images.ico" type="image/x-icon" />
+<script type="text/javascript" src="../js/main.js"></script>
+<script type="text/javascript" src="../js/List.js"></script>
+</head>
+<body>
+	<div class="Arear">
+		<header></header>
+		<nav>
+			<ul class="menu">
+				<li class="home"><img id="img1" src="../image/home.png" width="100px">
+				<a href="../main.html" onmouseenter="opacityOn1()" onmouseleave="opacityOut1()">Home</a></li>
+				<li class="story"><img id="img2" src="../image/story.png" width="100px">
+				<a href="story.html"  onmouseenter="opacityOn2()" onmouseleave="opacityOut2()">Story</a></li>
+				<li class="char"><img id="img3" src="../image/charactor.png" width="100px">
+				<a href="char.html"  onmouseenter="opacityOn3()" onmouseleave="opacityOut3()">Character</a></li>
+				<li class="music"><img id="img6" src="../image/musicList.png" width="100px">
+				<a href="musicList.html"  onmouseenter="opacityOn6()" onmouseleave="opacityOut6()">Music</a></li>
+				<li class="gallery"><img id="img7" src="../image/memento.png" width="100px">
+				<a href="gallery.html"  onmouseenter="opacityOn7()" onmouseleave="opacityOut7()">gallery</a></li>
+				<li class="info"><img id="img4" src="../image/info.png" width="100px">
+				<a href="info.html"  onmouseenter="opacityOn4()" onmouseleave="opacityOut4()">Info</a></li>
+				<li class="about"><img id="img5" src="../image/about.png" width="100px">
+				<a href="about.html"  onmouseenter="opacityOn5()" onmouseleave="opacityOut5()">about</a></li>
+			</ul>
+		</nav>
+		<!-- 이 내용 다른곳에 들어가지 않습니다. -->
+		<div class="section">
+			<h2>Music Collection List</h2>
+			<p>현재 존재하는 뮤직 컬렉션입니다. (Mobile Version) 글씨를 클릭하세요.</p>
+			<h3>↓ ↓ Click ↓ ↓</h3>
+			<table class="table">
+			<tr>
+			<td onclick="ColS()">Story / Free Collection</td>
+			<td onclick="Col1()">v1.0 ~ v1.5 Collection</td>
+			<td onclick="Col2()">v2.0 ~ v1.4 Collection</td>
+			<td onclick="Col3()">v3.1 ~ v3.5 Collection</td>
+			</tr>
+			</table>
+			<br>
+			<div id="imageShow"><img id="image"></div>
+		</div>
+		<!-- 여기까지 -->
+	</div>
+	<footer id="footer">copyright 2019 made by .K<hr>
+	<p align="center"></p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,100 @@
+@charset "UTF-8";
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+*{
+	box-sizing:border-box;
+}
+
+body{
+	background: linear-gradient(#282828, white);
+	z-index:-5;
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+header{width:1000px; height: 100px;}
+
+.Arear{
+	background-image: url("../image/title.png"); background-repeat: no-repeat; z-index:1;
+	width: 1000px;
+	height:100%;
+	margin: auto;
+	position: relative;
+}
+.interduce{
+	color:white;
+}
+
+.menu li a {
+	font-size: 30px;
+	color: #dfdfdf;
+	text-decoration: none; color : white;
+	text-shadow: 0px 0px 8px rgb(255, 255, 43);
+	float: left;
+	margin: 10px 25px;
+}
+
+.menu li a:hover{
+		text-shadow: 0px 0px 20px yellow;
+}
+
+.menu li {
+	list-style: none;
+}
+
+.menu{
+	width: 1000px;
+	height: 60px;
+	padding: 0px;
+	margin: 50px 0px 40px 0px;
+}
+
+li img{
+	opacity: 0;
+	position: absolute;
+}
+/*-----위치변경-----*/
+.home img{
+	top:80px; left:25px;
+}
+.story img{
+	top:80px; left:145px;
+}
+.char img{
+	top:80px; left:300px;
+}
+.music img{
+	top:80px; left:450px;
+}
+.gallery img{
+	top:80px; left:580px;
+}
+.info img{
+	top:80px; left:705px;
+}
+.about img{
+	top:80px; left:820px;
+}
+/*-----위치변경-----*/
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	opacity: .5;
+	transition: 1s;
+} 
+
+#footer {
+	width:100%;
+	padding:25px 0px 50px 50px;
+	margin-top:30px;
+	text-align:center;
+	border-top:2px solid #dedede;
+	font-family: 'Inria Serif', serif;
+	font-weight:bold;
+	font-style:italic;
+	float: none;
+	color: gray;
+}

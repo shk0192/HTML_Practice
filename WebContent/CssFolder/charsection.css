@@ -1,0 +1,35 @@
+@charset "UTF-8";
+.section{
+	width: 1000px; height:800px;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 75px;
+}
+
+.section span{
+	width: 1000px;
+	height: 200px;
+	float: left;
+	padding: 10px;
+	margin: 15px 20px;
+	color : black;
+}
+
+span img{
+	float: left;
+	margin-right:100px; 
+}
+
+span .name{
+	font-weight:bold;
+	font-family: 'Tangerine', serif;
+	font-size: 40px;
+	margin: 0px;
+	text-shadow: 0px 0px 10px white, 0px 0px 5px black;
+}
+
+span .Ex{
+	font-family: 'Yeon Sung', cursive;
+	font-size: 24px;
+	text-shadow: 0px 0px 10px white;
+}
